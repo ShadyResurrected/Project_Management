@@ -28,7 +28,7 @@ const cache = new InMemoryCache({
 
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://sore-puce-bighorn-sheep-kilt.cyclic.app/',
   cache,
 })
 
