@@ -16,7 +16,7 @@ connectDB();
 
 app.use(cors());
 
-app.use('/graphql', graphqlHTTP({
+app.use('https://sore-puce-bighorn-sheep-kilt.cyclic.app/', graphqlHTTP({
     schema,
     graphiql : process.env.NODE_ENV === 'development'
 }))
